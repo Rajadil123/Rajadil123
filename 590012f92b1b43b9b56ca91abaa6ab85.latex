@@ -1,0 +1,278 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+
+\author{}
+\date{}
+
+\begin{document}
+
+\textbf{Term paper}
+
+\textbf{Name -- Raj kumar}
+
+\textbf{Roll number -- 19111044}
+
+\textbf{Semester -- 6th}
+
+\textbf{Branch -- BME}
+
+\textbf{Subject -- DBMS}
+
+\begin{quote}
+\textbf{Topic -- students database management system;}
+
+\textbf{ABSTRACT-}\\
+An organized and systematic office solution is essential for all
+universities and organizations. There are many departments of
+administration for the maintenance of college information and student
+databases in any institution. All these departments provide various
+records regarding students. Most of these track records need to maintain
+information about the students. This information could be the general
+details like student name, address, performance, attendance etc. or
+specific information related to departments like collection of data.
+
+All the modules in college administration are interdependent. They are
+maintained manually. So they need to be automated and centralized as,
+Information from one module will be needed by other modules. For example
+when a student needs his course completion certificate it needs to check
+many details about the student like his name, reg number, year of study,
+exams he attended and many other details. So it needs to contact all the
+modules that are office, department and examination and result of
+students.
+
+With that in mind, we overhauled the existing Student Database
+Management System and made necessary improvement to streamline the
+processes. Administrators using the system will find that the process of
+recording and retrieving students information and managing their
+classes, including marking of attendance, is now a breeze. In general,
+this project aims to enhance efficiency and at the same time maintain
+information accurateness. Later in this report, features and improvement
+that allow achievement to this goal will be demonstrated and
+highlighted.
+
+Our work is useful for easy user interface. We are planning to uttilize
+the powerful database management, data retrieval and data manipulation.
+We will provides more ease for managing the data than manually
+maintaining in the documents. Our work is useful for saving valuable
+time and reduces the huge paper work.
+
+\textbf{PROJECT REVIEW}
+\end{quote}
+
+\includegraphics[width=6.5in,height=2.42778in]{vertopal_590012f92b1b43b9b56ca91abaa6ab85/media/image1.png}
+
+\emph{\textbf{Figure 2.1: Project Development Phases}}
+
+\begin{quote}
+Project management skills are put to good use for this project. Having
+gone through project management modules in Time Series Analysis,
+Optimization and with two interns Project Management for Business and IT
+respectively, they enhanced my knowledge on managing a project. Project
+management focuses on achieving the objectives by applying five
+processes presented in Figure.
+
+\textbf{RESOURCES-}\\
+Systems Development Life Cycle (SDLC) is the most common process adopted
+to develop a project and not surprisingly, this project is following
+this model too. To be precise,
+
+waterfall model is being applied. Waterfall model is a sequential model
+process where the input of a phase actually results from the previous
+phase.
+\end{quote}
+
+\includegraphics[width=6.5in,height=3.36806in]{vertopal_590012f92b1b43b9b56ca91abaa6ab85/media/image2.png}
+
+\begin{quote}
+\emph{\textbf{Figure 3.1: SDLC Phases}}
+
+There are five phases in this model and the first phase is the planning
+stage. The planning stage determines the objectives of the project and
+whether the project should be given the green light to proceed. This is
+where the proposal submission comes into picture. After obtaining the
+approval, the next phase is analysis. Gathering and analyzing the system
+and user requirements is essential for entry to the design step.
+\end{quote}
+
+\includegraphics[width=6.5in,height=2.35694in]{vertopal_590012f92b1b43b9b56ca91abaa6ab85/media/image3.png}
+
+\begin{quote}
+\emph{\textbf{Figure 3.2: Comparison of web servers}}
+
+After deciding on the scripting language and database, next is to select
+the web server that can support them. Web server is necessary for the
+delivery of web content to the web browser. As such, Apache HTTP server
+which has performance similar with other 'high-performance' server is
+considered.
+
+Thereafter, research and actual testing have been performed to see the
+outcome of the various servers listed in the Figure below. These servers
+include PHP and MySQL in their installation packages thus allowing
+smoother and simpler download process. However, based on the performance
+and interface, Wamp or LAMP server is the preferred choice.
+
+\textbf{SYSTEM ANALYSIS AND DESIGN-}\\
+In order to provide a clearer picture of the functionality provided by
+the student management module, we have done a use case analysis. Figure
+below is a use case diagram to present the functionality in the student
+management module.
+
+\includegraphics[width=5.94167in,height=4.725in]{vertopal_590012f92b1b43b9b56ca91abaa6ab85/media/image4.png}
+
+\emph{\textbf{Figure 4.1: use case analysis}}
+
+Under the existing student management module, the administrator has to
+first register the family. This includes the parent's particulars and
+home details. After submitting these data, the administrator will be
+directed to the student page whereby the student information is to be
+submitted. Figure below provides the interface of the existing student
+registration site. For easy navigation, the registration of the student
+and enrolment to the class has been combined into one process.
+
+\includegraphics[width=6.13056in,height=5.89444in]{vertopal_590012f92b1b43b9b56ca91abaa6ab85/media/image5.png}
+
+\emph{\textbf{Figure 4.2: Student registration process}}
+
+\textbf{DATABASE DESIGN AND DEVELOPMENT}\\
+The first step is to create the database as shown in Figure below. The
+default storage engine in this MySQL server is InnoDB which has commit,
+rollback, and crash-recovery capabilities to protect user data.
+Following that is to create the tables in the database.
+
+\includegraphics[width=6.5in,height=4.65417in]{vertopal_590012f92b1b43b9b56ca91abaa6ab85/media/image6.png}
+
+\emph{\textbf{Figure 5.1: Database creation in phpMyAdmin}}\\
+Figure below gives a view of the table creation.
+
+\includegraphics[width=6.73333in,height=2.74861in]{vertopal_590012f92b1b43b9b56ca91abaa6ab85/media/image7.png}
+
+\emph{\textbf{Figure 5.2: Table creation in phpMyAdmin}}
+
+\textbf{SYSTEM AND DATABASE TESTING-}\\
+Testing is the last phase of this project. This is the stage where it
+shows whether the system and database are working as desired. Otherwise,
+further rectification is required. Tests have been conducted and
+recorded below to show the results.
+
+\includegraphics[width=6.5in,height=6.09444in]{vertopal_590012f92b1b43b9b56ca91abaa6ab85/media/image8.png}
+
+\emph{\textbf{Figure 6.1: Test}}\\
+\textbf{PROJECT MANAGEMENT-}\\
+\textbf{\underline{Work breakdown structure}}\\
+The Work Breakdown Structure provides a clear picture of the items that
+are required to be completed for the project work scope. It is arranged
+in a tree structure manner
+
+to show all sub-sections required to be accomplished in each phase
+throughout the project.
+
+\textbf{\underline{Risk management}}\\
+Every project has uncertainties and they may affect the project success.
+These uncertainties are known as risk. There is a need to determine the
+risks involved in the project to reduce the chance of its occurrence as
+well as develop a plan to either mitigate or avoid the risks that have
+been identified.
+\end{quote}
+
+\includegraphics[width=6.66667in,height=4.9875in]{vertopal_590012f92b1b43b9b56ca91abaa6ab85/media/image9.png}
+
+\begin{quote}
+\emph{\textbf{Figure 7.1: Risk Assessment Matrix}}\\
+After identifying and determining the risks, they are recorded in a
+table called the risk assessment matrix. This matrix lists the severity
+which is also known as the impact level in terms of High, Medium and
+Low. In addition to those details, the action plan that can be taken for
+each of the risks is clearly stated too.
+
+\textbf{CONCLUSIONS-}\\
+Simplicity is never simple. As we have seen in this project, the process
+of creating a user- friendly and straightforward platform that
+facilitates the administrator's job is one filled with complexity. From
+understanding user requirements to system design and finally system
+prototype and finalization, every step requires in-depth understanding
+and commitment towards achieving the objectives of the project.
+
+Although the student database management module is not fully integrated
+to the system and used on real time, the system prototype demonstrates
+easy navigation and data are stored in a systematic way. Overall,
+efficiency has improved and work processes simplified. Although all the
+objectives have been met, the system still has room for improvement. The
+system is robust and flexible enough for future upgrade using advanced
+technology and devices.
+
+\textbf{CRITICAL REVIEWS-}\\
+In the process of doing this project, obstacles have been encountered. I
+have learnt to be more flexible in resolving issues. One of the
+situations that I have faced was when I had installed MySQL server, but
+it did not work. Then I tried to troubleshoot, research online and did a
+couple of re-installation but to no avail. Then I installed XAMPP, it
+did not work out too. Some how I did get rid of this problem but I did
+not like XAMPP server. Therefore I decided to install LAMP server. Yes
+it worked fine. At the end I found that I had installed multiple server
+and hence system was confused which server is to be used i.e. conflicts
+with MySQL. Then I stopped all server running on my laptop and decided
+to start only LAMP server and it worked fine.
+\end{quote}
+
+\textbf{-\/-\/-The end -\/-\/-}
+
+\end{document}
